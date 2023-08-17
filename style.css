@@ -1,0 +1,93 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+    /*font-family: 'Patua One', cursive;*/ 
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+
+    position: relative;
+    /*background:#98e1f3; */
+/*    background:linear-gradien (45deg, #233439, #98e1f3);*/ background:linear-gradient(45deg,#161818,#4196b4);
+
+    padding: 20px 20px;
+    ;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.navbar ul li{
+    margin: 12px 12px;
+}
+.navbar ul li a{
+    color: #035569;
+    text-decoration: none;
+    border: 2px solid #035569;
+    padding: 6px 10px;
+    border-radius: 12px;
+    background: #98e1f3;
+    font-weight: 500;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+  /* background: url ('https://images.unsplash.com/photo-1590959651373-a3db0f38a961?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60')   no-repeat center ;*/
+    background-size:cover ;
+    background: url('manuu.jpg')   no-repeat center; 
+}
+.banner h1{
+    color: #050505;
+    font-size: 60px;
+    text-shadow: 1px 5px 5px rgba(255, 255, 255, 0.6);
+}
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 1000px;
+    height: 55vh;
+    border: 2px solid #0a0a0a;
+    background:linear-gradient(90deg,#363838,#dce4e7);
+
+    
+    
+}
+.course{
+    width: 33.33%;
+    height: 400px;
+    margin: 12px 12px ;
+    border: 2px solid #0b0c0c;
+    text-align: center;
+
+}
+.course img{
+    width: 100%;
+
+}
+.footer{
+    display: flex;
+    background: #0d262c;
+    height: 50px;
+    font-size: 25px ;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
